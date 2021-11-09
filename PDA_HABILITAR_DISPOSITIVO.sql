@@ -1,0 +1,4 @@
+insert into VIALCAMINERA.EQUIPO_IMEI 
+(EQUIPOID,EQUIPOIMEI,EQUIPOHABILITADO,EQUIPONUMERODESERIE,EQUIPOLETRADESERIE,EQUIPONUMEROACTA, EQUIPONUMERODISPOS)
+values (&equipoid, '&imei','&habilitado','&n°serie','&letraserie',&numacta,&numeroequipo);
+commit;
